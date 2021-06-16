@@ -1,0 +1,140 @@
+/* css reset */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+}
+/* header */
+#navbar{
+    display: flex;
+    /* background-color: rgb(17, 10, 53); */
+    /* color: black; */
+    padding: 20px;
+    box-shadow: 10px 10px 10px rgb(235, 235, 235);
+    background-color: black;
+    padding-bottom: 6px;
+    padding-top: 6px;
+}
+header ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    color: white;
+    
+}
+header ul li{
+    margin-left: 10px;
+    align-items: center;
+    margin-left: 20px;
+    color: white;
+}
+header ul li a{
+    text-decoration: none;
+    color: black;
+    color: white;
+}
+header ul li a:hover{
+    box-shadow: 5px 5px 5px black;
+    background-color: red;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 34px;
+    color: black;
+    transition: .5s;
+}
+.logo{
+    margin-left: 21px;
+    padding-right: 20px;
+    color: rgb(5, 148, 231);
+}
+.logo h1{
+    font-size: x-large;
+}
+hr{
+    background-color: black;
+    color: black;
+}
+
+/* hero */
+#hero{
+    margin-top: -50px;
+}
+#ctn{
+    padding-bottom: -500px;
+}
+#heroimg{
+    box-shadow: 5px 5px 10px black;
+}
+#heroimg:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+.md\:flex-row {
+    flex-direction: row;
+    margin-top: -20px;
+}
+
+.servicesline{
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.py-24 {
+    padding-top: 2rem !important;
+    padding-bottom: 6rem;
+}
+
+#hero{
+    /* background-color: #333; */
+    background: url('herobackground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+#heroh1{
+    color: white;
+}
+.object-center {
+    object-position: center;
+    height: 428px;
+}
+
+.lg\:pl-24 {
+    /* padding-left: 7rem; */
+    justify-content: center;
+    align-items: center;
+}
+.hero h1{
+    font-size: 2rem;
+    color: white;
+}
+.hero p{
+    color: white;
+    /* width: 1000px; */
+    font-size: 1rem;
+}
+.hero{
+    padding-top: 150px;
+    padding-bottom: 300px;
+    background: url('herobackground.jpg');
+    background-size: cover;
+}
+.hero button{
+    background-color: red;
+    width: 80px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: white;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+.hero button:hover{
+    transform: scale(1.2);
+}
